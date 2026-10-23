@@ -1,1 +1,168 @@
-# Raja-barbiere-1
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raja barbiere - official Website</title>
+  
+  <style>
+
+.foto-barbiere {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  margin: 20px auto;
+}
+
+.servizio {
+  background: white;
+  margin: 16px auto;
+  padding: 22px;
+  max-width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background: #12372A;
+      color: white;
+      padding: 30px 15px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    section {
+      padding: 30px 15px;
+    }
+
+    .servizio {
+      background: white;
+      margin: 12px auto;
+      padding: 18px;
+      max-width: 320px;
+      border-radius: 10px;
+    }
+
+    .prezzo {
+      color: #b8860b;
+      font-weight: bold;
+    }
+
+    .contatto {
+      display: inline-block;
+      background: #16834a;
+      color: white;
+      padding: 14px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #202020;
+      color: white;
+      padding: 18px;
+    }
+    
+/* Adattamento per telefoni */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  section {
+    padding: 20px 12px;
+  }
+
+  .foto-barbiere {
+    height: 220px;
+  }
+
+  .servizio {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .contatto {
+    display: block;
+    max-width: 240px;
+    margin: 20px auto;
+  }
+}
+
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+    <h1>Raja Barbiere</h1>
+    <p>Il tuo stile, la nostra passione</p>
+  </header>
+
+  <section>
+  
+<section>
+  <img
+    class="foto-barbiere"
+    src="https://media.istockphoto.com/id/1269070582/it/foto/interni-barbershop-giovane-barbiere-che-fa-taglio-di-capelli-serve-il-cliente-nel-moderno.webp?a=1&b=1&s=612x612&w=0&k=20&c=TKUHzdPLmtlrTVszCRu-HDftK46h7MI-y-P1omLpgRc="
+    alt="Interno di un barbiere professionale">
+
+  <h2>I nostri servizi</h2>
+  </section>
+    <div class="servizio">
+      <h3>Taglio uomo</h3>
+      <p class="prezzo">18 €</p>
+    </div>
+
+    <div class="servizio">
+      <h3>Barba</h3>
+      <p class="prezzo">8 €</p>
+    </div>
+
+    <div class="servizio">
+      <h3>Taglio + barba</h3>
+      <p class="prezzo">20 €</p>
+    </div>
+
+    <h2>Vieni a trovarci!</h2>
+    <p>Prenota il tuo prossimo appuntamento.</p>
+
+    <a class="contatto"
+       href="https://wa.me/391234567890">
+       Contattaci su WhatsApp
+    </a>
+
+<h2>Dove siamo</h2>
+<p>Vieni a trovarci nel nostro negozio!</p>
+<p>Via Dante, 35, 26100 Cremona CR</p>
+
+<a class="contatto"
+   href="https://maps.app.goo.gl/GKSBLCjAuqzAEJXS7"
+   target="_blank">
+   Apri Google Maps
+</a>
+
+  </section>
+
+  <footer>
+    © 2026 Barber Shop
+  </footer>
+</body>
+</html>
